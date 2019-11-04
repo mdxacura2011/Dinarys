@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Dinarys_Justin::justin" title="Justin" translate="title" module="Dinarys_Justin" sortOrder="15"
+             parent="Magento_Backend::content_elements" action="dinarys_justin/index/index" resource="Dinarys_Justin::justin"/>
+    </menu>
+</config>

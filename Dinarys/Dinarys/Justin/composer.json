@@ -1,0 +1,28 @@
+{
+    "name": "dinarys/justin",
+    "description": "Extension shipping",
+    "require": {
+        "php": "~7.0.13|~7.1.0|~7.2.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Serhii",
+            "email": "tepov123@i.ua",
+            "homepage": "https://www.mageplaza.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dinarys\\Justin\\": ""
+        }
+    }
+}
