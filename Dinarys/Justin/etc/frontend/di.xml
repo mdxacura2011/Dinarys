@@ -1,15 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <!--<type name="Magento\Checkout\Block\Checkout\LayoutProcessor">-->
-        <!--<plugin name="ProcessAddressConfiguration" type="Dinarys\Justin\Block\Checkout\SomeProcessor"/>-->
-    <!--</type>-->
-
-    <type name="Magento\Checkout\Model\CompositeConfigProvider">
-        <arguments>
-            <argument name="configProviders" xsi:type="array">
-                <item name="justin_city_config_provider" xsi:type="object">Dinarys\Justin\Model\Provider\JustinConfigProvider</item>
-            </argument>
-        </arguments>
+    <type name="Magento\Checkout\Block\Checkout\LayoutProcessor">
+        <plugin name="ProcessAddressConfiguration" type="Dinarys\Justin\Block\Checkout\SomeProcessor"/>
     </type>
 </config>
